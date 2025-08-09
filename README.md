@@ -115,7 +115,7 @@ http://127.0.0.1:8000/api/v1/logout/
 http://127.0.0.1:8000/api/v1/wallet/
 ```
 ```bash
-Authorization: Bearer <ваш_access_токен>
+Authorization: Bearer <access_токен>
 ```
 
 7) Детальная информаци о кошельке (GET):
@@ -123,7 +123,7 @@ Authorization: Bearer <ваш_access_токен>
 http://127.0.0.1:8000/api/v1/wallets/<wallet_id>/
 ```
 ```bash
-Authorization: Bearer <ваш_access_токен>
+Authorization: Bearer <access_токен>
 ```
 
 8) Список всех кошельков пользователя (GET):
@@ -131,7 +131,7 @@ Authorization: Bearer <ваш_access_токен>
 http://127.0.0.1:8000/api/v1/wallets/all/
 ```
 ```bash
-Authorization: Bearer <ваш_access_токен>
+Authorization: Bearer <access_токен>
 ```
 
 9) Удаление кошелька (DELETE):
@@ -147,7 +147,7 @@ Authorization: Bearer <access_токен>
 http://127.0.0.1:8000/api/v1/wallets/<wallet_id>/operation/
 ```
 ```bash
-Authorization: Bearer <ваш_access_токен>
+Authorization: Bearer <access_токен>
 ```
 ```bash
 {
@@ -161,5 +161,5 @@ Authorization: Bearer <ваш_access_токен>
 http://127.0.0.1:8000/api/v1/wallets/<wallet_id>/operations/
 ```
 ```bash
-Authorization: Bearer <ваш_access_токен>
+Authorization: Bearer <access_токен>
 ```
